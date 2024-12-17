@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",           // Target latest JavaScript version
+    "module": "CommonJS",           // Keep ES Modules for compatibility
+    "rootDir": "./src",           // Source directory for TS files
+    "outDir": "./dist",           // Output directory for compiled JS files
+    "moduleResolution": "node",   // Resolve Node.js-style modules
+    "esModuleInterop": true,      // Allow CommonJS and ES Module interop
+    "strict": true,               // Enable strict type-checking
+    "skipLibCheck": true,         // Skip type checks for libraries
+    "forceConsistentCasingInFileNames": true
+  }
+}
